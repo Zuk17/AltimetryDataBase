@@ -1,0 +1,4 @@
+select AddGeometryColumn ('alt_data','alt_point',-1,'POINT',2);
+			Таблица	       Столбец	    Вид столбца
+
+insert into ..... (...,GeomFromText ('POINT (lon,lat)',-1),...);
